@@ -16,10 +16,10 @@ function Header()
                         <table style={{ margin: "0 auto" }}>
                             <tr>
                                 <th style={{ textAlign: "right" }}>
-                                    <a href="https://discordapp.com/invite/f6VRUW9"><img aria-label="discord link"  src="/discord.svg" className="tab" /></a>
+                                    <a href="https://discordapp.com/invite/f6VRUW9"><img aria-label="discord link"  src="/discord.svg" alt='discord' className="tab" /></a>
                                 </th>
                                 <th style={{ textAlign: "left" }} >
-                                    <a href="https://facebook.com/groups/WeCodeALot"><img src="/facebook.svg" aria-label="facebook link" className="tab" /></a>
+                                    <a href="https://facebook.com/groups/WeCodeALot"><img src="/facebook.svg" aria-label="facebook link" alt='facebook' className="tab" /></a>
                                 </th>
                             </tr>
                         </table>
