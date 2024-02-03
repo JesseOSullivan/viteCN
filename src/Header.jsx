@@ -9,17 +9,17 @@ function Header()
             <div id="header-content">
                 <div class="contentwrapper">
                     <div className='edges'>
-                        <img src="./logo.png" alt="Code Network logo" />
+                        <img src="./logo.png" aria-label="Code Network logo" alt="Code Network logo" />
                         <h1>Join the community</h1>
                         <a href="https://qutcode.getqpay.com/" id="action">Sign up  <i class="fa fa-external-link" aria-hidden="true"></i></a>
                         <p> </p>
                         <table style={{ margin: "0 auto" }}>
                             <tr>
                                 <th style={{ textAlign: "right" }}>
-                                    <a href="https://discordapp.com/invite/f6VRUW9"><img src="/discord.svg" className="tab" /></a>
+                                    <a href="https://discordapp.com/invite/f6VRUW9"><img aria-label="discord link"  src="/discord.svg" className="tab" /></a>
                                 </th>
                                 <th style={{ textAlign: "left" }} >
-                                    <a href="https://facebook.com/groups/WeCodeALot"><img src="/facebook.svg" className="tab" /></a>
+                                    <a href="https://facebook.com/groups/WeCodeALot"><img src="/facebook.svg" aria-label="facebook link" className="tab" /></a>
                                 </th>
                             </tr>
                         </table>

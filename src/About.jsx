@@ -32,7 +32,7 @@ function About()
               <div className="team-section">
                 {teamData.map((member, index) => (
                   <div className="team-member" key={index}>
-                    <img src={member.photo} alt={member.name} />
+                    <img src={member.photo} aria-label={member.name} alt={member.name} />
                     <h2>{member.name}</h2>
                     <p className="role">{member.role}</p>
                     <p className = "description">{member.description}</p>

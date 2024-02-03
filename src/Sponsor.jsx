@@ -10,19 +10,19 @@ function Sponsor()
           <h2>Platinum Sponsors</h2>
             <div className='sponsor-grid'>
               <a href="https://technologyonecorp.com/" id="action">
-                  <img src="/sponsors/technologyone.png" alt="Sign up" className="button-image" />
+                  <img src="/sponsors/technologyone.png"  aria-label="Technology One" alt="Sign up" className="button-image" />
               </a>
             </div>
           <h2>Gold Sponsors</h2>
             <div className='sponsor-grid'>
               <a href="https://www.atlassian.com/" id="action">
-                  <img src="/sponsors/atlassian.png" alt="Sign up" className="button-image" />
+                  <img src="/sponsors/atlassian.png" aria-label="Atlassian" alt="Sign up" className="button-image" />
               </a>
               <a href="https://www.macquarie.com.au/" id="action">
-                  <img src="/sponsors/macquarie.png" alt="Sign up" className="button-image" />
+                  <img src="/sponsors/macquarie.png" alt="Sign up" aria-label="Macquarie" className="button-image" />
               </a>
               <a href="https://www.riotinto.com/" id="action">
-                  <img src="/sponsors/riotinto.png" alt="Sign up" className="button-image" />
+                  <img src="/sponsors/riotinto.png" alt="Sign up" aria-label="Rio Tinto" className="button-image" />
               </a>
           </div>
         </div>

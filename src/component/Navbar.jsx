@@ -17,7 +17,7 @@ function Navbar()
     <header>
       <div className='edges2'>
         <h3>
-          <a href="/"><img src={codeNetworkLogo} alt="Logo of Code Network" height={60} /></a>
+          <a href="/"><img aria-label="Logo of Code Network" src={codeNetworkLogo} alt="Logo of Code Network" height={60} /></a>
         </h3>
         <nav ref={navRef}>
           <a href="/about">About us</a>
